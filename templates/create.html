@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Tambah Film Baru</h2>
+<form method="POST">
+    <label for="title">Judul:</label><br>
+    <input type="text" name="title" required><br>
+    <label for="genre">Genre:</label><br>
+    <input type="text" name="genre" required><br>
+    <label for="year">Tahun:</label><br>
+    <input type="number" name="year" required><br><br>
+    <button type="submit">Simpan</button>
+</form>
+{% endblock %}

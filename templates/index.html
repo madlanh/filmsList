@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Daftar Film</h2>
+<a href="/create">Tambah Film Baru</a>
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Judul</th>
+            <th>Genre</th>
+            <th>Tahun</th>
+            <th>Aksi</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for film in films %}
+        <tr>
+            <td>{{ film.id }}</td>
+            <td>{{ film.title }}</td>
+            <td>{{ film.genre }}</td>
+            <td>{{ film.year }}</td>
+            <td>
+                <a href="/update/{{ film.id }}">Edit</a>
+                <a href="/delete/{{ film.id }}">Hapus</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

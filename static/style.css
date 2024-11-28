@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background: #007BFF;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Tombol dan Link */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Formulir */
+form {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+}
